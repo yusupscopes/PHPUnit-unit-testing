@@ -9,4 +9,10 @@ class SampleTest extends TestCase
         $name = true;
         $this->assertTrue($name);
     }
+
+    /** @test */
+    public function user_bisa_login()
+    {
+        $this->assertTrue(true);
+    }
 }
